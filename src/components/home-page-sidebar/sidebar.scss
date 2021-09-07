@@ -1,0 +1,62 @@
+.sideBarDiv {
+    display: flex;
+    justify-content: center !important;
+    margin: auto;
+    margin-top: -1%;
+    margin-bottom: 1%;
+
+    .siteLogo {
+        width: fit-content;
+
+        img {
+            width: 60%;
+        }
+    }
+
+    .toggler {
+        font-size: large;
+        background-color: transparent;
+        margin: auto;
+        color: #ffba04;
+        text-shadow: 1px 1px 3px white;
+        letter-spacing: 1px;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    button {
+        font-size: large;
+        background-color: transparent;
+        color: #ffba04;
+        text-shadow: 1px 1px 3px white;
+        font-family: 'Press Start 2P', cursive;
+
+        &:hover {
+            background-color: transparent;
+            transform: scale(1.02);
+        }
+    }
+
+    li {
+        padding: 8px;
+        margin: auto;
+    }
+}
+.logout {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    opacity: 0.9;
+    margin-top: -2.5%;
+    color: white;
+
+    .logoutBtn {
+        border: 2px solid #ffba04 !important;
+        background-color: transparent;
+
+        &:hover {
+            cursor: pointer;
+            background-color: transparent;
+            box-shadow: 1px 2px rgba(255, 255, 255, 0.5);
+        }
+    }
+}
